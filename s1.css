@@ -1,7 +1,6 @@
 *{
     margin: 0;
-    outline: 0;
-  
+    outline: 0; 
 }
 .header{
     width: 100%;
@@ -16,7 +15,6 @@ a{
     display: flex;
     gap: 10px;
     padding: 30px;
-    
 }
 button{
     font-size: 18px;
@@ -25,20 +23,12 @@ button{
     outline: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: 0;
-
 }
-
-
-
 .container{
     display: flex; 
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
-
-
-
 .box{
     width: 300px;
     height: 200px;
@@ -53,22 +43,18 @@ button{
         flex-direction: column;
     }
 }
-
-
 .box:hover{
     transform: scale(1.1);
 }
-
 .about{
     margin-top: 1px;
-    height: 40vh;
+    height: 45vh;
     padding: 50px 100px;
     align-items: center;
     background-color: #000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
 }
 .boxL{
 font-size: 22px;
@@ -76,26 +62,26 @@ display: flex;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 flex-direction: column;
 }
-
 @media (max-width:600px){
     .about{
         flex-direction: column;
     }
 }
-
 .me img{
     width: 120px;
     height: 120px;
-    border-radius: 60px;  
-    
+    border-radius: 60px;    
 } 
-
+@media(max-width:600px){
+    .me img{
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+    }
+}
 .me p{
     font-size: 12px;
-    
-    font-family: sans-serif;
-   
-    
+    font-family: sans-serif;    
 }
 .me p:hover{
      cursor: pointer;
